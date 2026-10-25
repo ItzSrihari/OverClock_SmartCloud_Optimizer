@@ -1,0 +1,10 @@
+{
+  "name": "optimizer-engine-server",
+  "version": "1.0.0",
+  "description": "SmartCloud Analytics & Rightsizing Engine API Server (Golang)",
+  "scripts": {
+    "dev": "go run .",
+    "build": "go build -o server .",
+    "start": "go run ."
+  }
+}
