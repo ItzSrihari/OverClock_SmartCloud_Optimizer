@@ -64,6 +64,7 @@ services:
         - NEXT_PUBLIC_INFRA_URL=${NEXT_PUBLIC_INFRA_URL:-http://localhost:8001}
     image: smartcloud-frontend:latest
     ports:
+      - "3000:3000"
       - "3001:3000"
     depends_on:
       optimizer-engine-server:
